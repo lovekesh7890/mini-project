@@ -1,0 +1,70 @@
+*{
+    margin:0%;
+    padding:0%
+}
+body{
+    background-image: url("../gym.jpg.jpg");
+    background-size: 100%;
+    color:white;
+
+}
+nav{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.logo{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+.logo span{
+    color: red;
+}
+.menu a{
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+.menu a:hover{
+    border-bottom: 2px solid rgb(222, 41, 41);
+}
+
+.text{
+    margin-left:7%;
+    margin-top:120px;
+}
+.text h1{
+    font-size:100px;
+
+    
+}
+.text p{
+    font-size:35px;
+    margin-top: 20px;
+    margin-left: 0px;
+    text-shadow: 0 0 30px 10px;
+
+}
+
+.text button{
+    width:170px;
+    height:44px;
+    background-color: rgb(231,13,13);
+    color:white;
+    border:2px solid;
+    margin-top:50px;
+    font-size: 25px;
+    
+
+}
+.text button:hover{
+    border:3px solid white;
+    background-color: rgb(242,54,54);
+}
+
+
+

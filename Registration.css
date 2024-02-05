@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(./abstract-blurred-fitness-or-gym-background-free-photo.jpg);
+    background-size: cover;
+}
+
+.content{
+    border: 2px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 9px;
+    width: 380px;
+    height: 370px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 38%;
+    
+}
+.content h1{
+    color:black;
+    
+    
+}
+.content form{
+    font-size: 18px;
+}
+
+.content form input{
+font-size: 20px;
+font-weight: 400;
+border-left: 0;
+border-right: 0;
+border-top: 0;
+outline: none;
+background: transparent;
+}
+.content form input ::placeholder{
+    color: black;
+    
+}
+
+.content button{
+    width: 200px;
+    height: 25px;
+    border: 1px;
+    border-radius: 50px;
+    background: blue;
+    
+}
+.content button a{
+    color: white;
+    text-decoration: none;
+    
+
+}
